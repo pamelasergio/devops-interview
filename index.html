@@ -27,23 +27,23 @@
 							<small>Assume that the script's name is display.sh. Run the script with the following arguments:</small>
 							<pre><code>./display.sh hey there goodluck</code></pre>
 							<pre><code>
-							#!/bin/bash
-							# (1) I am on the 1st line of the script, what am I?
+				#!/bin/bash
+				# (1) I am on the 1st line of the script, what am I?
 
-							# (2) What's my output?
-							echo "(2) $#"
+				# (2) What's my output?
+				echo "(2) $#"
 
-							# (3) What's my output?
-							echo "(3) $@"
+				# (3) What's my output?
+				echo "(3) $@"
 
-							# (4) What's my purpose?
-							echo "(4) $?"
+				# (4) What's my purpose?
+				echo "(4) $?"
 
-							# (5) What's my output?
-							echo "(5)"
-							for i in $*; do
-    							echo "$i"
-							done
+				# (5) What's my output?
+				echo "(5)"
+				for i in $*; do
+    				echo "$i"
+				done
 							</code></pre>
 						</section>
 						<section>
